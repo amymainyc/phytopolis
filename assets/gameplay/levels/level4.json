@@ -1,0 +1,134 @@
+{ "compressionlevel":-1,
+ "height":14,
+ "infinite":false,
+ "layers":[
+        {
+         "data":[0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 26,
+            26, 5, 6, 7, 8, 25,
+            25, 0, 0, 0, 0, 34,
+            27, 0, 0, 0, 0, 23,
+            25, 0, 0, 0, 0, 28,
+            27, 0, 0, 0, 0, 26,
+            33, 0, 0, 0, 0, 26,
+            21, 0, 0, 0, 0, 25,
+            26, 27, 0, 0, 0, 28,
+            27, 26, 72, 0, 0, 25,
+            28, 25, 71, 0, 0, 27,
+            26, 33, 0, 0, 64, 27,
+            27, 23, 0, 0, 63, 25],
+         "height":14,
+         "id":1,
+         "name":"physics",
+         "opacity":1,
+         "type":"tilelayer",
+         "visible":true,
+         "width":6,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "data":[0, 0, 0, 82, 0, 0,
+            0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 82, 0,
+            0, 0, 82, 0, 0, 0,
+            0, 0, 0, 0, 0, 83,
+            0, 0, 0, 0, 0, 0,
+            0, 0, 0, 82, 0, 0,
+            0, 0, 0, 0, 0, 0,
+            83, 82, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0,
+            0, 83, 0, 0, 0, 0],
+         "height":14,
+         "id":2,
+         "name":"resources",
+         "opacity":1,
+         "type":"tilelayer",
+         "visible":true,
+         "width":6,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "data":[0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0,
+            80, 0, 0, 0, 0, 80,
+            0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0,
+            0, 80, 0, 0, 0, 80,
+            0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0],
+         "height":14,
+         "id":3,
+         "name":"hazards",
+         "opacity":1,
+         "type":"tilelayer",
+         "visible":true,
+         "width":6,
+         "x":0,
+         "y":0
+        }],
+ "nextlayerid":4,
+ "nextobjectid":1,
+ "orientation":"orthogonal",
+ "properties":[
+        {
+         "name":"background",
+         "type":"string",
+         "value":"gameplay:background1"
+        }, 
+        {
+         "name":"firerate",
+         "type":"float",
+         "value":3
+        }, 
+        {
+         "name":"leaftype",
+         "type":"int",
+         "value":2
+        }, 
+        {
+         "name":"levelnumber",
+         "type":"int",
+         "value":4
+        }, 
+        {
+         "name":"time",
+         "type":"int",
+         "value":90
+        }, 
+        {
+         "name":"victory",
+         "type":"float",
+         "value":12
+        }],
+ "renderorder":"right-down",
+ "tiledversion":"1.10.2",
+ "tileheight":400,
+ "tilesets":[
+        {
+         "firstgid":1,
+         "source":"tileset.tsx"
+        }, 
+        {
+         "firstgid":76,
+         "source":"hazards.tsx"
+        }, 
+        {
+         "firstgid":82,
+         "source":"rsrc.tsx"
+        }],
+ "tilewidth":600,
+ "type":"map",
+ "version":"1.10",
+ "width":6
+}
